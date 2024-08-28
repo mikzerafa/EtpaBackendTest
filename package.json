@@ -1,0 +1,30 @@
+{
+  "name": "etpabackendtest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require ts-node/register 'src/*.test.ts'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikzerafa/EtpaBackendTest.git"
+  },
+  "author": "mikhail zerafa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikzerafa/EtpaBackendTest/issues"
+  },
+  "homepage": "https://github.com/mikzerafa/EtpaBackendTest#readme",
+  "devDependencies": {
+    "@types/chai": "^4.3.19",
+    "@types/chai-http": "^4.2.0",
+    "@types/mocha": "^10.0.7",
+    "@types/node": "^22.5.1",
+    "chai": "^5.1.1",
+    "chai-http": "^5.0.0",
+    "mocha": "^10.7.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
